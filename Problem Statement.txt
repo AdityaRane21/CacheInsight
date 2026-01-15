@@ -1,0 +1,3 @@
+CPU Cache Simulator (C++)
+• Implemented a configurable CPU cache simulator in C++ supporting set-associative mapping, LRU replacement, and hit/miss performance analysis 
+• Modeled cache lines and sets, performed address decoding, and analyzed cache behavior across different cache configuration
