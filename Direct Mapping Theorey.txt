@@ -1,0 +1,14 @@
+kmodn - k is block number and n is number of lines 
+eg) block 0 -0 mod 4, block 0 will go in line 1 
+
+main memory physical address
+we require 7 bits to represent 128 words, as 2^7=128
+These 7 bits are divided in 2 parts block number (5 bits) and block offset (block size) 2 bits.
+
+cache memory 
+block offset remains same 2 bits
+block number is divided in 2 parts Tag (3 bits) and Line number (2 bits)
+
+CPU is looking for some word aur voh word ke corresponding block cache me pada hai means cache hit, if not then cache miss.
+
+Reference - https://youtu.be/eObN3u3eAnU?si=BSqY3RWqb5bnJOnw
