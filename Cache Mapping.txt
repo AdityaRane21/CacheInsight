@@ -1,0 +1,9 @@
+There are 3 types of cache mapping techniques :
+Direct mapping
+fully associative
+k way set associative 
+
+CPU is directly connected to cache and cache is connected to RAM and ram is connected to secondary memory (hard disk).
+
+CPU works in 10^6 instructions per second (MIPS - million or mega instructions per second)
+GIPS ( 10^9)
