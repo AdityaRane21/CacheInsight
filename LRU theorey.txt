@@ -1,0 +1,5 @@
+LRU (Least Recently Used) Cache Replacement Algorithm 
+
+We have lines in which we have cache blocks and in these blocks we insert our memory blocks requests
+We put elements in the cache untill we have no free space.
+As the cache block is full, LRU concept is used, so we have to replace new value with the farthest value in the past. 
