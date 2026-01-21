@@ -8,3 +8,5 @@ And for main memory we have 32 Blocks having 128 words.
 We put elements in the cache untill we have no free space.
 As the cache block is full, LRU concept is used, so we have to replace new value with the farthest value in the past. 
 
+Note: Line size and block size are same
+1 word = 1 byte generally 
