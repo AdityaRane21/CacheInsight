@@ -22,3 +22,5 @@ Now, we have to find mapping
 In Physical address the address is divided in 2 parts block number (5 bit) and block offset (2 bit)
 In cache memory the block offset remains same (2 bit) but the bloack number is divided in 2 parts Tag (4 bits) and set number (1 bit)
 Tag - 4 bits as 2^4=16 (16 blocks can be assigned in each line in cache memory)
+
+Reference - https://youtu.be/pFndaJARM4Q?si=NwJpl3uT4d7tITwJ
