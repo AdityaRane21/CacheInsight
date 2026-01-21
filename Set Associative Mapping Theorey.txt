@@ -1,0 +1,24 @@
+Set Associative Mapping
+It is a combination of direct and fully associative mapping.
+
+We know :
+16 words cache (4 lines L0, L1, L2, L3)
+128 words main memory (32 Blocks (B0 to B31 ) ) - each block contains 4 words, thus total 128 words (w0 to w127) 
+1 word = 1 byte generally 
+Note: Line size and block size are same
+
+K way set associative  :
+eg)  2 way set associative 
+number of set = number of line/k =4/2
+so total number of set = 2
+L0 and L1 will go in set 0
+L2 and L3 will go in set 1
+
+Direct mapping - kmodn
+eg) Block 0 - 0 mod 2 (0 is block number and n is number of set here for set associative mapping)
+set 0 me kisi bhi line me jaa skta hai - means ye associative ka concept bhi involved hai 
+
+Now, we have to find mapping
+In Physical address the address is divided in 2 parts block number (5 bit) and block offset (2 bit)
+In cache memory the block offset remains same (2 bit) but the bloack number is divided in 2 parts Tag (4 bits) and set number (1 bit)
+Tag - 4 bits as 2^4=16 (16 blocks can be assigned in each line in cache memory)
