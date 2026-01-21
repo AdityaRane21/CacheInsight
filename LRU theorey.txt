@@ -1,5 +1,10 @@
 LRU (Least Recently Used) Cache Replacement Algorithm 
 
-We have lines in which we have cache blocks and in these blocks we insert our memory blocks requests
+Generally we have 4 lines in cache which contains 16 words.
+And for main memory we have 32 Blocks having 128 words.
+16 words cache (4 lines L0, L1, L2, L3)
+128 words main memory (32 Blocks (B0 to B31 ) ) - each block contains 4 words, thus total 128 words (w0 to w127) 
+
 We put elements in the cache untill we have no free space.
 As the cache block is full, LRU concept is used, so we have to replace new value with the farthest value in the past. 
+
