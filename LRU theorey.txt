@@ -10,3 +10,5 @@ As the cache block is full, LRU concept is used, so we have to replace new value
 
 Note: Line size and block size are same
 1 word = 1 byte generally 
+
+Reference - https://youtu.be/w32d1lD0Jb0?si=Pr6AnlJEKA-1cwbW
