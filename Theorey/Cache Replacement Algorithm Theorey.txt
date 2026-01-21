@@ -1,0 +1,11 @@
+we dont replace cache, we replace the data inside the cache 
+FIFO - replace the one joh sbse pehele aaya hai, first in first out
+LRU - least recently used
+MRU - most recently used
+Random 
+
+we do cache replacement to reduce the miss penalty and increase the hit.
+we use replacement is associative and set associative.
+direct me cache replacement use nahi hota, as fixed line me block jata hai, even if baki lines khali hai we cant place a specific block in those remaining lines.
+
+Reference - https://youtu.be/EXRicJapuOQ?si=o6-OdpKYmB8paqPn
